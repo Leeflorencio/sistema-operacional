@@ -66,12 +66,12 @@ public class SistemaOperacional {
 
         System.out.println("Sistema Operacional     Votos    %");
         System.out.println("-------------------     -----   ---");
-        System.out.println("Windows Server:           " + windows.size() + "    (" + porcentagem(windows.size(), total) + "%)");
-        System.out.println("Unix:                     " + unix.size() + "    (" + porcentagem(unix.size(), total) + "%)");
-        System.out.println("Linux:                    " + linux.size() + "    (" + porcentagem(linux.size(), total) + "%)");
-        System.out.println("Netware:                  " + netware.size() + "    (" + porcentagem(netware.size(), total) + "%)");
-        System.out.println("Mac OS:                   " + macOs.size() + "    (" + porcentagem(macOs.size(), total) + "%)");
-        System.out.println("Outros:                   " + outros.size() + "    (" + porcentagem(outros.size(), total) + "%)");
+        System.out.println("Windows Server:           " + windows.size() + "     " + porcentagem(windows.size(), total) + "%");
+        System.out.println("Unix:                     " + unix.size() + "     " + porcentagem(unix.size(), total) + "%");
+        System.out.println("Linux:                    " + linux.size() + "     " + porcentagem(linux.size(), total) + "%");
+        System.out.println("Netware:                  " + netware.size() + "     " + porcentagem(netware.size(), total) + "%");
+        System.out.println("Mac OS:                   " + macOs.size() + "     " + porcentagem(macOs.size(), total) + "%");
+        System.out.println("Outros:                   " + outros.size() + "     " + porcentagem(outros.size(), total) + "%");
 
         System.out.println("-------------------     -----  ");
         System.out.println("Total:                    " + total);
